@@ -1,0 +1,27 @@
+#myBtn {
+    background-color: rgb(108, 255, 108);
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#count {
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+}
+
+#message {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+
+}

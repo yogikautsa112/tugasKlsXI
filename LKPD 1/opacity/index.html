@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>opacity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <select id="imageSelect">
+        <option value="img/wisata1.jpeg">Gambar 1</option>
+        <option value="img/wisata2.jpeg">Gambar 2</option>
+        <option value="img/wisata3.jpeg">Gambar 3</option>
+    </select>
+
+    <select id="opacitySelect">
+        <option value="1">1</option>
+        <option value="0.5">0.5</option>
+        <option value="0.3">0.3</option>
+    </select>
+    <input type="submit" value="Ubah" id="submitBtn">
+</div>
+    <img id="imageDisplay" src="img/wisata1.jpeg" alt="Selected Image" style="opacity: 1; width: 300px;">
+    <script src="script.js"></script>
+</body>
+</html>

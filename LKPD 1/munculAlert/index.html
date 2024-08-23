@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="timer()">
+    <form id="myForm">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama">
+        
+        <label for="umur">Umur:</label>
+        <input type="number" id="umur" name="umur">
+        
+        <label>Jenis Kelamin:</label>
+        <label for="male">Laki-laki <input type="radio" id="male" name="gender" value="Laki-laki"></label>
+        <label for="female">Perempuan <input type="radio" id="female" name="gender" value="Perempuan"></label>
+        <button id="btnSubmit">Submit</button>
+        <div id="result"></div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

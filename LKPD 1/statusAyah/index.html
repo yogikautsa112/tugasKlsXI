@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Status Ayah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" id="myForm">
+        <h1>Form Detail Ayah</h1>
+        <label for="status">Status Ayah</label>
+        <div id="status">
+            <div>
+                <input type="radio" id="alive" name="status" value="alive" checked />
+                <label for="alive">Masih Hidup</label>
+            </div>
+            <div>
+                <input type="radio" id="dead" name="status" value="dead" />
+                <label for="dead">Meninggal</label>
+            </div>
+            <div>
+                <input type="radio" id="unknown" name="status" value="unknown" />
+                <label for="unknown">Tidak Diketahui</label>
+            </div>
+        </div>
+        <div id="detail">
+            <div id="pendidikan">
+                <label for="">Pendidikan Ayah</label>
+                <select name="" id="">
+                    <option value="1" selected>SD</option>
+                    <option value="2">SMP</option>
+                    <option value="3">SMA/SMK</option>
+                    <option value="4">S1</option>
+                </select>
+            </div>
+            <div id="pekerjaan">
+                <label for="">Pekerjaan Ayah</label>
+                <select name="" id="">
+                    <option value="1" selected>Buruh </option>
+                    <option value="2">Guru</option>
+                    <option value="3">PNS</option>
+                    <option value="4">Nganggur</option>
+                </select>
+            </div>
+            <div id="deskripsi">
+                <label for="desk">Deskripsi Pekerjaan Ayah</label>
+                <input type="text" name="desk" id="desk" value="tuliskan nama spesifikasi pekerjaan">
+            </div>
+            <div id="gaji">
+                <label for="">Total Penghasilan Ayah Per Bulan</label>
+                <select name="" id="">
+                    <option value="1" selected>Rp. 500.000</option>
+                    <option value="2">Rp. 1.000.000</option>
+                    <option value="3">Rp. 1.500.000</option>
+                    <option value="4">Rp. 2.000.000</option>
+                </select>
+                <span><b>bila tidak memeiliki penghasilan tulis "0"</b></span>
+            </div>
+            <div id="deskPekerjaan">
+                <label for="">Detail Ayah bekerja, berapa lama sudah bekerja, kondisi kesehatan, dan kondisi karir profesinya</label>
+                <textarea name="" id=""></textarea>
+            </div>
+        </div>
+        <input id="submitBtn" type="submit" value="Submit" onsubmit="updateForm()">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
